@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-StreamReader reader = new StreamReader("C:\\Jacob\\Code\\advent-of-code\\2025\\02-25\\input.txt");
+﻿StreamReader reader = new StreamReader("C:\\Jacob\\Code\\advent-of-code\\2025\\02-25\\input.txt");
 
 
 string line = reader.ReadLine();
@@ -9,7 +7,8 @@ string line = reader.ReadLine();
 string[] ranges = line.Split(",");
 // split line into list of ranges
 
-HashSet<string> fakeIds = [];
+List<string> fakeIds1 = [];
+HashSet<string> fakeIds2 = [];
 long sum = 0;
 
 foreach (string range in ranges)
@@ -21,28 +20,27 @@ foreach (string range in ranges)
     for (long id = start; id <= end; id++)
     {
         // Part 1
-        //// check if any are fakes
         string idString = id.ToString();
-        if (idString.Length == 1) continue;
-        //    int l = 0;
-        //    int r = idString.Length / 2;
+        int l = 0;
+        int r = idString.Length / 2;
 
 
-        //    // Why not just use String comparison XD
-        //    while (r < idString.Length)
-        //    {
-        //        if (idString[l] != idString[r]) break;
-        //        if (r == idString.Length - 1)
-        //        {
-        //            fakeIds.Add(idString);
-        //            sum += long.Parse(idString);
-        //        }
-        //        ;
-        //        l++;
-        //        r++;
-        //    }
+        while (r < idString.Length)
+        {
+            if (idString.Length % 2 == 1) break;
+            if (idString[l] != idString[r]) break;
+            if (r == idString.Length - 1)
+            {
+                fakeIds1.Add(idString);
+                sum += long.Parse(idString);
+            }
+            ;
+            l++;
+            r++;
+        }
 
         //Part 2
+        if (idString.Length == 1) continue;
         for (int compareSize = 1; compareSize <= idString.Length / 2; compareSize++)
         {
             string firstCompareString = idString.Substring(0, compareSize);
@@ -54,7 +52,7 @@ foreach (string range in ranges)
                 if (!firstCompareString.Equals(nthCompareString)) break;
                 if (partitionIndex == idString.Length - compareSize)
                 {
-                    fakeIds.Add(idString);
+                    fakeIds2.Add(idString);
                 }
 
             }
@@ -64,10 +62,11 @@ foreach (string range in ranges)
 }
 
 long sum2 = 0;
-foreach (var fakeId in fakeIds)
+foreach (var fakeId in fakeIds2)
 {
-    Console.WriteLine(fakeId);
     sum2 += long.Parse(fakeId);
 }
+
 Console.WriteLine(sum);
+Console.WriteLine();
 Console.WriteLine(sum2);
