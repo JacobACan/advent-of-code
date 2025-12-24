@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Jacob\\Code\\advent-of-code\\2025\\07-25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E200964C-5190-D578-B523-026AEBD2A357}|07-25\\07-25.csproj|c:\\jacob\\code\\advent-of-code\\2025\\07-25\\07-25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E200964C-5190-D578-B523-026AEBD2A357}|07-25\\07-25.csproj|solutionrelative:07-25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 197,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Jacob\\Code\\advent-of-code\\2025\\07-25\\07-25\\Program.cs",
+              "RelativeDocumentMoniker": "07-25\\Program.cs",
+              "ToolTip": "C:\\Jacob\\Code\\advent-of-code\\2025\\07-25\\07-25\\Program.cs",
+              "RelativeToolTip": "07-25\\Program.cs",
+              "ViewState": "AgIAAFIAAAAAmZmZmRkWwGgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T14:08:12.362Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

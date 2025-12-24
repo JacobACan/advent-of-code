@@ -1,0 +1,15 @@
+C:\Jacob\Code\advent-of-code\2025\07-25\07-25\bin\Debug\net10.0\07-25.exe
+C:\Jacob\Code\advent-of-code\2025\07-25\07-25\bin\Debug\net10.0\07-25.deps.json
+C:\Jacob\Code\advent-of-code\2025\07-25\07-25\bin\Debug\net10.0\07-25.runtimeconfig.json
+C:\Jacob\Code\advent-of-code\2025\07-25\07-25\bin\Debug\net10.0\07-25.dll
+C:\Jacob\Code\advent-of-code\2025\07-25\07-25\bin\Debug\net10.0\07-25.pdb
+C:\Jacob\Code\advent-of-code\2025\07-25\07-25\obj\Debug\net10.0\07-25.GeneratedMSBuildEditorConfig.editorconfig
+C:\Jacob\Code\advent-of-code\2025\07-25\07-25\obj\Debug\net10.0\07-25.AssemblyInfoInputs.cache
+C:\Jacob\Code\advent-of-code\2025\07-25\07-25\obj\Debug\net10.0\07-25.AssemblyInfo.cs
+C:\Jacob\Code\advent-of-code\2025\07-25\07-25\obj\Debug\net10.0\07-25.csproj.CoreCompileInputs.cache
+C:\Jacob\Code\advent-of-code\2025\07-25\07-25\obj\Debug\net10.0\07-25.sourcelink.json
+C:\Jacob\Code\advent-of-code\2025\07-25\07-25\obj\Debug\net10.0\07-25.dll
+C:\Jacob\Code\advent-of-code\2025\07-25\07-25\obj\Debug\net10.0\refint\07-25.dll
+C:\Jacob\Code\advent-of-code\2025\07-25\07-25\obj\Debug\net10.0\07-25.pdb
+C:\Jacob\Code\advent-of-code\2025\07-25\07-25\obj\Debug\net10.0\07-25.genruntimeconfig.cache
+C:\Jacob\Code\advent-of-code\2025\07-25\07-25\obj\Debug\net10.0\ref\07-25.dll
